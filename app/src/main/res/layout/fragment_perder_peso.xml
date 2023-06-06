@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".perder_peso">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/perder_peso"
+        app:layout_constraintBottom_toTopOf="@+id/perder_peso"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/ganar_peso"
+        app:layout_constraintBottom_toTopOf="@+id/ganar_peso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/perder_peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Perder peso"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/black"
+        app:strokeColor="#4CAF50"
+        app:strokeWidth="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/ganar_peso"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        />
+
+    <Button
+        android:id="@+id/ganar_peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="Ganar peso"
+        android:backgroundTint="@color/black"
+        app:strokeColor="#4CAF50"
+        app:strokeWidth="4dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/perder_peso"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        android:enabled="false"
+        />
+
+    <Button
+        android:id="@+id/frutos"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/black"
+        android:text="Frutos secos"
+        app:layout_constraintBottom_toTopOf="@+id/aceite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perder_peso"
+        app:layout_constraintVertical_bias="0.991"
+        app:strokeColor="#4CAF50"
+        app:strokeWidth="4dp" />
+
+    <Button
+        android:id="@+id/aceite"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@color/black"
+        android:text="Aceite de oliva"
+        app:layout_constraintBottom_toTopOf="@+id/Pan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#4CAF50"
+        app:strokeWidth="4dp" />
+
+    <Button
+        android:id="@+id/agua"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="128dp"
+        android:backgroundTint="@color/black"
+        android:text="Aguacate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#4CAF50"
+        app:strokeWidth="4dp" />
+
+    <Button
+        android:id="@+id/Pan"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/black"
+        android:text="Pan"
+        app:layout_constraintBottom_toTopOf="@+id/agua"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#4CAF50"
+        app:strokeWidth="4dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

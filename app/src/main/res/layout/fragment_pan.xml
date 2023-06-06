@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        tools:context=".pan">
+
+
+        <TextView
+            android:id="@+id/nombre_comida"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border_style"
+            android:text="Pan"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="205dp"
+            android:layout_height="227dp"
+            android:src="@drawable/pan1"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombre_comida" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:text="Vitaminas y minerales del pan… Es una buena fuente de vitaminas del grupo B (tiamina o B1, riboflavina o B2, piridoxina o B6 y niacina, necesarias para el aprovechamiento de los hidratos de carbono, proteínas y grasas, entre otras funciones) y de elementos minerales tales como el fósforo, el magnesio y el potasio."
+            android:textColor="@color/white"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="32dp"
+            android:lineSpacingExtra="5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/pez1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="32dp"
+            android:background="@drawable/border_style"
+            android:text="Pan de ajo"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="283dp"
+            android:layout_height="343dp"
+            android:src="@drawable/pan2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.315" />
+
+        <TextView
+            android:id="@+id/pezing1title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_style"
+            android:text="Ingredientes:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <TextView
+            android:id="@+id/pezing1"
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="5sp"
+            android:text="- Una barra tipo baguette de 250 g\n- 3 dientes de ajo\n- 80 g de mantequilla\n- Sal al gusto\n- Pimienta al gusto\n- 2 cucharadas de perejil fresco picado\n"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1title" />
+
+        <TextView
+            android:id="@+id/pezing1preptitle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_style"
+            android:text="Preparación:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1" />
+
+        <TextView
+            android:id="@+id/pezing1prep"
+            android:layout_width="250dp"
+            android:layout_height="1200dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="5sp"
+            android:text=
+                "1.- Para empezar, usaremos un cuchillo de sierra para cortar en rebanadas una barra tipo baguette de 250 g. Haremos cortes en diagonal para que cada rebanada tenga más superficie con mantequilla y ajo, el grosor será de unos 2 cm y nos deberán salir unas doce o trece rebanadas.\n\n
+2.- Preparamos 3 dientes de ajo. En primer lugar, para que el ajo no repita, retiramos el germen de cada uno de los dientes de ajo.\n\n
+3.- Picamos el ajo muy fino con la ayuda de un prensador. Si no tenemos prensador podemos cortar el ajo muy fino con un cuchillo.\n\n
+4.- Ponemos en un bol 80 g de mantequilla a temperatura ambiente. Es importante que la mantequilla no esté muy fría porque resultará dura para poder usarla para untar las rebanadas de pan. Salpimentamos al gusto la mantequilla y añadimos el ajo prensado.\n\n
+5.- Añadimos 2 cucharadas de perejil picado a la mantequilla salpimentada con el ajo prensado.\n\n
+6.- Mezclamos todos los ingredientes de la mantequilla de ajo bien antes de untarla sobre las rebanadas de pan.\n\n
+7.- Untamos una a una las rebanadas de pan con abundante mezcla de mantequilla de ajo.\n\n
+8.- Llevamos las rebanadas de pan a una bandeja con papel de horno.\n\n
+9.- Horneamos las rebanadas de pan de ajo durante 15 minutos a 180 ºC.\n\n
+10.- Una vez fuera del horno, servimos el pan de ajo inmediatamente para acompañar un plato de pasta, una carne asada o simplemente como aperitivo.\n\n
+"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1preptitle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

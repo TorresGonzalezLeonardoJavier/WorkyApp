@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        tools:context=".frutos">
+
+
+        <TextView
+            android:id="@+id/nombre_comida"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border_style"
+            android:text="Frutos Secos"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="205dp"
+            android:layout_height="227dp"
+            android:src="@drawable/frut1"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombre_comida" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:text="Los futos secos son muy ricos en grasas saludables, son una gran fuente de proteínas vegetales, convirtiéndose así en un alimento fundamental para la dieta de vegetarianos y veganos, también para quienes buscan adelgazar o incrementar la masa muscular."
+            android:textColor="@color/white"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="32dp"
+            android:lineSpacingExtra="5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/pez1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="32dp"
+            android:background="@drawable/border_style"
+            android:text="Crema untable de tomates secos"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="283dp"
+            android:layout_height="343dp"
+            android:src="@drawable/frut2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.387" />
+
+        <TextView
+            android:id="@+id/pezing1title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_style"
+            android:text="Ingredientes:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <TextView
+            android:id="@+id/pezing1"
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="5sp"
+            android:text="- Tomate seco (deshidratado) en aceite de oliva 200 g\n- Piñones 15 g\n- Almendras peladas 60 g\n- Ajo granulado 1 cucharadita\n- Pimentón dulce 1 y 1/2 cucharaditas\n- Sirope o crema de dátiles (o de ágave, opcional) 5 ml\n- Tomillo 1/2 cucharadita\n- Pimienta negra al gusto\n- Levadura de cerveza en copos 1 cucharadita (opcional)\n- Miso (opcional) 5 ml\n"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1title" />
+
+        <TextView
+            android:id="@+id/pezing1preptitle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_style"
+            android:text="Preparación:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1" />
+
+        <TextView
+            android:id="@+id/pezing1prep"
+            android:layout_width="250dp"
+            android:layout_height="650dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="5sp"
+            android:text=
+                "1.- Lo más fácil es partir ya de una conserva de tomates secos en aceite de oliva virgen extra; si los tenemos totalmente secos, habrá que dejarlos hidratando varias horas en aceite o agua, mejor toda la noche. Escurrir conservando el aceite.\n\n
+2.- Echar los tomates en el vaso de una picadora, batidora o procesador de alimentos con buenas cuchillas. Si fueran muy grandes, trocearlos un poco. Agregar el resto de ingredientes, cerrar y triturar. Abrir, remover y añadir un poco del aceite conservado para darle más humedad. Volver a triturar.\n\n
+3.- Repetir el proceso hasta obtener una crema untable más o menos homogénea, según prefiramos dejar trocitos más o menos visibles de los ingredientes. Probar para corregir el punto de sabor al gusto, añadiendo más ajo o pimentón, o incluso otras hierbas. También se puede hacer más húmeda con un poco de agua, si no queremos agregar mucho aceite.\n\n
+"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1preptitle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

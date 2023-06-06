@@ -1,0 +1,30 @@
+
+<resources>
+    <string name="app_name">Connection with the DB</string>
+    <string name="title_activity_contenedor">Workyapp</string>
+    <string name="title_home">GYM</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">User</string>
+    <string name="gym">GYM</string>
+    <string name="rutinas">Routines</string>
+    <string name="usuario">User</string>
+    <string name="informacion">Information</string>
+    <string name="registrar">Register an user</string>
+    <string name="recomendaciones">Recomendations</string>
+    <string name="plan">Eating plan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contacto">Contact</string>
+    <string name="idioma">Language</string>
+    <string name="explorar_rutinas">Explore routines</string>
+    <string name="nueva_rutina">New routine</string>
+    <string name="piernas_y_gl_teos">Legs and buttocks</string>
+    <string name="aumentar_masa_muscular">Increase muscle mass</string>
+    <string name="cuerpo_completo">Full body</string>
+    <string name="espalda_ancha">Wide back</string>
+    <string name="m_sculos_grandes">Big muscles</string>
+    <string name="gl_teos_definidos">Defined buttocks</string>
+    <string name="pecho_brutal">Brutal chest</string>
+    <string name="abdomen_fuerte_y_marcado">Strong and marked abdomen</string>
+    <string name="definici_n_muscular">Muscle definition</string>
+</resources>

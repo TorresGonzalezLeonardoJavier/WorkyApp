@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        tools:context=".frijoles">
+
+
+        <TextView
+            android:id="@+id/nombre_comida"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border_style"
+            android:text="Frijoles"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="205dp"
+            android:layout_height="227dp"
+            android:src="@drawable/firjoles2"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombre_comida" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="250dp"
+            android:layout_height="220dp"
+            android:text="Los frijoles y las legumbres contienen antioxidantes que ayudan a prevenir el daño celular y a combatir enfermedades y el envejecimiento. La fibra y otros nutrientes benefician el aparato digestivo y pueden incluso ayudar a prevenir los cánceres digestivos.\n\nEstas son algunas recomendaciones de recetas con frijoles:"
+            android:textColor="@color/white"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="32dp"
+            android:lineSpacingExtra="5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/pez1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="32dp"
+            android:background="@drawable/border_style"
+            android:text="Ensalada de frijoles"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="283dp"
+            android:layout_height="343dp"
+            android:src="@drawable/frijoles1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.366" />
+
+        <TextView
+            android:id="@+id/pezing1title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_style"
+            android:text="Ingredientes:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <TextView
+            android:id="@+id/pezing1"
+            android:layout_width="250dp"
+            android:layout_height="240dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="5sp"
+            android:text="- 400 gramos de frijoles blancos\n- 2 jitomates\n- 1 pepino\n- 1 ramito de perejil fresco\n- 1 hoja de laurel\n- 1/2 cebolla morada\n- 1 diente de ajo\n- Queso feta\n- 1 cucharadita de bicarbonato de sodio\n- Aceite de oliva virgen\n- Vinagre de manzana\n"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1title" />
+
+        <TextView
+            android:id="@+id/pezing1preptitle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_style"
+            android:text="Preparación:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1" />
+
+        <TextView
+            android:id="@+id/pezing1prep"
+            android:layout_width="250dp"
+            android:layout_height="830dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="5sp"
+            android:text=
+                "1.- Lava bien los frijoles blancos y colócalos en una olla con suficiente agua para cubrirlos, añade una cucharadita de bicarbonato de sodio y deja reposar hasta la mañana siguiente.\n\n
+2.- Escurre y enjuaga bajo el chorro de agua fría. Pasa los frijoles a una olla exprés y agrega la hoja de laurel y suficiente agua para cubrirlas, tapa y deja a fuego alto.\n\n
+3.- Cuando comience a chiflar la olla deja por 12 minutos más, después retira del fuego, desecha el caldo y deja enfriando los frijoles.\n\n
+4.- Lava y pica finamente los jitomates, el pepino sin cáscara ni semillas, el perejil fresco, la cebolla morada y el diente de ajo, reserva por separado.\n\n
+5.- En un mortero coloca el ajo y muele hasta obtener una pasta, agrega 1 cucharada de vinagre de manzana y 5 cucharadas de aceite de oliva virgen hasta obtener un puré.\n\n
+6.- Sirve los frijoles en una ensaladera, añade el jitomate, la cebolla y el pepino finamente picados, remueve para integrar, añade el queso feta y la vinagreta que preparaste, vuelve a remover y finalmente espolvorea perejil fresco.
+"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1preptitle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

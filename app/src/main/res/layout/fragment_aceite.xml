@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        tools:context=".aceite">
+
+
+        <TextView
+            android:id="@+id/nombre_comida"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border_style"
+            android:text="Aceite de oliva"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="205dp"
+            android:layout_height="227dp"
+            android:src="@drawable/aceite1"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombre_comida" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:text="Los ácidos grasos inciden de forma directa en la síntesis a nivel interno de hormonas anabólicas. Esto quiere decir que ayuda en la síntesis de la hormona del crecimiento o de la testosterona y por tanto sirve para generar más masa muscular"
+            android:textColor="@color/white"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="32dp"
+            android:lineSpacingExtra="5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/pez1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="32dp"
+            android:background="@drawable/border_style"
+            android:text="Espencat valenciano
+"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="283dp"
+            android:layout_height="343dp"
+            android:src="@drawable/aceite2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.387" />
+
+        <TextView
+            android:id="@+id/pezing1title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_style"
+            android:text="Ingredientes:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <TextView
+            android:id="@+id/pezing1"
+            android:layout_width="250dp"
+            android:layout_height="170dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="5sp"
+            android:text="- 5 dientes de ajo\n- Un buen aceite de oliva virgen extra\n- 1 guindilla o pimienta de cayena\n- Pizca de sal\n- Hojas frescas de perejil\n- Espagueti 60-70 gramos por persona\n"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1title" />
+
+        <TextView
+            android:id="@+id/pezing1preptitle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_style"
+            android:text="Preparación:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1" />
+
+        <TextView
+            android:id="@+id/pezing1prep"
+            android:layout_width="250dp"
+            android:layout_height="600dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="5sp"
+            android:text=
+                "1.- Corta la berenjena por la mitad, añádele un poco de sal por encima y deja que suelte gotas de agua. Esto se llama sangrar la berenjena.\n\n
+2.- Hornea el pimiento y la berenjena con un chorizo de aceite a 190ºC durante 25 minutos aproximadamente. El tiempo de cocción puede variar según el tamaño de la verdura.\n\n
+3.- Una vez horneado, deja enfriar y poco a poco ves desmenuzando con las manos o con ayuda de un cuchillo haciendo tiras largas. \n\n
+4.- Mezcla todo en un recipiente y añade un buen chorro de aceite de oliva virgen extra.\n\n
+5.- Sirve tal cual junto con un poco de pan para mojar o hacerte un montadito.\n\n
+"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1preptitle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

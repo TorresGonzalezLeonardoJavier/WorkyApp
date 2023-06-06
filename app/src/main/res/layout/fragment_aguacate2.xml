@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        tools:context=".aguacate2">
+
+
+        <TextView
+            android:id="@+id/nombre_comida"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border_style"
+            android:text="Aguacte"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="205dp"
+            android:layout_height="227dp"
+            android:src="@drawable/agua1"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombre_comida" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:text="A diferencia de otras frutas enteras, los aguacates son bastante densos en calorías y, por lo tanto, un excelente alimento para ayudarte a subir de peso. Solo un aguacate grande (200 gramos) proporciona alrededor de 322 calorías, 29 gramos de grasa y 17 gramos de fibra."
+            android:textColor="@color/white"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="32dp"
+            android:lineSpacingExtra="5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/pez1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="32dp"
+            android:background="@drawable/border_style"
+            android:text="Batido de aguacate, chocolate y avellana"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="283dp"
+            android:layout_height="343dp"
+            android:src="@drawable/agua3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.567" />
+
+        <TextView
+            android:id="@+id/pezing1title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_style"
+            android:text="Ingredientes:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <TextView
+            android:id="@+id/pezing1"
+            android:layout_width="250dp"
+            android:layout_height="160dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="5sp"
+            android:text="- 1 taza de espinaca (60 g)\n- 1 aguacate\n- 2 cucharaditas de proteína de suero de leche sin sabor o de vainilla (10 ml)\n- 1 banana\n- 1 taza de piña (150 g)\n"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1title" />
+
+        <TextView
+            android:id="@+id/pezing1preptitle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_style"
+            android:text="Preparación:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1" />
+
+        <TextView
+            android:id="@+id/pezing1prep"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="5sp"
+            android:text=
+                "1.- Mezcla todos los ingredientes durante unos minutos y consume el batido después de tu sesión de entrenamiento."
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pezing1preptitle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
